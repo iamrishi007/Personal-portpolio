@@ -42,6 +42,6 @@ document.getElementById('resume').addEventListener('click', function () {
   a.href = '/images/full stack web devloper resume.pdf';
   a.download = 'full stack web devloper resume.pdf';
   a.click();
-});
+})
 
 
