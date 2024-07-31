@@ -880,3 +880,10 @@ h1 {
 .text{
      background-color: lightgray;
 }
+.container2{
+     height: 200px;
+}
+
+.contact-info>p{
+     font-size: 25px;
+}
