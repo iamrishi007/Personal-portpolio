@@ -891,3 +891,106 @@ h1 {
 .contact-info>p{
      font-size: 25px;
 }
+/* Medium screens (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+     .text {
+       font-size: 14px;
+       padding: 12px;
+     }
+     .repo_live a {
+       padding: 8px 16px;
+     }
+   }
+   
+   /* Small screens (phones, 600px and up) */
+   @media only screen and (max-width: 600px) {
+     .text {
+       font-size: 12px;
+       padding: 10px;
+     }
+     .repo_live a {
+       padding: 6px 12px;
+     }
+   }
+   
+   /* Extra small screens (phones, 400px and up) */
+   @media only screen and (max-width: 400px) {
+     .text {
+       font-size: 10px;
+       padding: 8px;
+     }
+     .repo_live a {
+       padding: 4px 8px;
+     }
+   }
+
+
+
+
+   /* Medium screens (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+     #git h1 {
+       font-size: 1.5em;
+     }
+     .contact-card {
+       padding: 15px;
+     }
+     .contact-info p {
+       font-size: 0.9em;
+     }
+   }
+   
+   /* Small screens (phones, 600px and up) */
+   @media only screen and (max-width: 600px) {
+     #git h1 {
+       font-size: 1.2em;
+     }
+     .contact-card {
+       padding: 10px;
+     }
+     .contact-info p {
+       font-size: 0.8em;
+     }
+   }
+   
+   /* Extra small screens (phones, 400px and up) */
+   @media only screen and (max-width: 400px) {
+     #git h1 {
+       font-size: 1em;
+     }
+   
+   }
+
+
+   /* Medium screens (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+     .contact-card {
+       padding: 15px;
+       margin: 10px;
+     }
+     .contact-info p {
+       font-size: 0.9em;
+     }
+   }
+   
+   /* Small screens (phones, 600px and up) */
+   @media only screen and (max-width: 600px) {
+     .contact-card {
+       padding: 10px;
+       margin: 10px;
+     }
+     .contact-info p {
+       font-size: 0.8em;
+     }
+   }
+   
+   /* Extra small screens (phones, 400px and up) */
+   @media only screen and (max-width: 400px) {
+     .contact-card {
+       padding: 8px;
+       margin: 5px;
+     }
+     .contact-info p {
+       font-size: 0.7em;
+     }
+   }
