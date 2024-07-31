@@ -32,3 +32,16 @@ function showSlides(n) {
 }
 
 
+
+document.getElementById('resume').addEventListener('click', function () {
+  // Open the PDF in a new tab
+  window.open('/images/full stack web devloper resume.pdf', '_blank');
+
+  // Trigger the download
+  const a = document.createElement('a');
+  a.href = '/images/full stack web devloper resume.pdf';
+  a.download = 'full stack web devloper resume.pdf';
+  a.click();
+});
+
+
