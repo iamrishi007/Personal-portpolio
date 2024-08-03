@@ -33,15 +33,33 @@ function showSlides(n) {
 
 
 
-document.getElementById('resume').addEventListener('click', function () {
-  // Open the PDF in a new tab
-  window.open('/images/full stack web devloper resume.pdf', '_blank');
+// document.getElementById('resume').addEventListener('click', function () {
+//   // Open the PDF in a new tab
+//   window.open('/images/full stack web devloper resume.pdf', '_blank');
 
-  // Trigger the download
-  const a = document.createElement('a');
-  a.href = '/images/full stack web devloper resume.pdf';
-  a.download = 'full stack web devloper resume.pdf';
+//   // Trigger the download
+//   const a = document.createElement('a');
+//   a.href = '/images/full stack web devloper resume.pdf';
+//   a.download = 'full stack web devloper resume.pdf';
+//   a.click();
+// })
+
+document.getElementById('resume').addEventListener('click', function (event) {
+  event.preventDefault();
+  
+  window.open('./images/Resume1.pdf', '_blank')
+  
+  const a = document.createElement('a')
+  
+  a.href = './images/Resume1.pdf';
+  
+  a.download = 'computer.pdf';
+  
+  document.body.appendChild(a);
+  
   a.click();
-})
+  
+  document.body.removeChild(a);
+});
 
 
