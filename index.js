@@ -47,11 +47,11 @@ function showSlides(n) {
 document.getElementById('resume').addEventListener('click', function (event) {
   event.preventDefault();
   
-  window.open('./images/Resume1.pdf', '_blank')
+  window.open('./images/Resume11.pdf', '_blank')
   
   const a = document.createElement('a')
   
-  a.href = './images/Resume1.pdf';
+  a.href = './images/Resume11.pdf';
   
   a.download = 'computer.pdf';
   
